@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-
+printf("test")
 typedef struct Call {
     int callID;
     char status;
