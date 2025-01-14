@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-printf("test")
+
 typedef struct Call {
     int callID;
     char status;
@@ -37,5 +37,7 @@ void addCall(Call** head, int callID, const char* status) {
 int main()
 {
 
+printf("test");
+printf("test2");
     return 0;
 }
